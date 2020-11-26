@@ -1,0 +1,4 @@
+/src/**/*.sass
+/src/**/*.scss
+/src/**/*.css
+*.md
