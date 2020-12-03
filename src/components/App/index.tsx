@@ -17,6 +17,9 @@ import logo from './logo.svg';
 import Redux from '../Redux';
 import ReduxUndo from '../ReduxUndo';
 import ReduxUndoSaga from '../ReduxUndoSaga';
+import SettingViewer from '../ContextStuff/SettingViewer';
+import OneContextProvider from '../ContextStuff';
+import SettingChanger from '../ContextStuff/SettingChanger';
 
 // Now imported using lazy loading
 // import Footer from '../Footer';
@@ -68,6 +71,10 @@ function App(): JSX.Element {
                     </Switch>
                 </Suspense>
             </Router>
+            <OneContextProvider>
+                <SettingChanger />
+                <SettingViewer />
+            </OneContextProvider>
             <MaterialButton
                 buttonText={_join(
                     ['Material Button', 'Text joined with Lodash'],

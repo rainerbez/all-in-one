@@ -18,7 +18,10 @@ function ReduxUndoSaga(): JSX.Element {
                 <div>
                     <div>
                         <h2>React Redux with Redux-Undo And Saga</h2>
-                        <h3>Open Console F12 to view Saga actions</h3>
+                        <h3>
+                            Open Console F12 to view Saga delayed
+                            actions
+                        </h3>
                         <SimpleButton
                             buttonText="Minus"
                             action={ButtonActions.SUBBUTTON}

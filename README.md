@@ -1,4 +1,4 @@
-# A beginner's React Redux Saga TypeScript Material-Ui Sass Webpack all-in-one example, ready for VSCode
+# A beginner's React Redux Saga TypeScript Material-Ui Sass Webpack all-in-one example with Context, ready for VSCode
 
 This project is aimed to help beginners get started with a working example of all these technologies without having to fight all their way to make them work together.
 
@@ -11,6 +11,8 @@ This project is aimed to help beginners get started with a working example of al
 - [React Router](https://reactrouter.com/) - A collection of navigational components that compose declaratively with your application.
 
 - [React.lazy](https://reactjs.org/docs/code-splitting.html#reactlazy) - lets you render a dynamic import as a regular component.
+
+- [React Context](https://reactjs.org/docs/context.html) - to pass data top-down without explicitly passing them as Props.
 
 - [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps
   
@@ -138,6 +140,8 @@ Now that the installation is over and you have successfully compiled the project
 - `components\App\index.tsx` - A React Router switches between the view of 2 lazy loaded 2 components.
 
 - `components\Hooks` - An example of Hooks and how state is lifted upwards, to be saved in parent component.
+  
+- `components\ContextStuff` - An example of how to pass Context info, use it in Components and modify it when necessary.
 
 - `components\SimpleTextComponent` - An example of a simple React Component. The SASS styles are loaded from the file `styles.module.scss`.
 
