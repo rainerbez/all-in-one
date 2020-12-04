@@ -41,7 +41,7 @@ function ChildButton(props: ChildButtonPropsType) {
     );
 }
 
-export default function MyThemeButtons(): JSX.Element {
+export default function StyleWithTheme(): JSX.Element {
     return (
         <div>
             <ChildButton someText={'Default Current Theme'} />

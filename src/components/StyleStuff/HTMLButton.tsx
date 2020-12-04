@@ -18,16 +18,16 @@ const myStyleForButton = makeStyles((theme: MyStyleForButtonType) =>
             color: 'white',
             height: 48,
             padding: '0 30px',
-            margin: '20px'
+            margin: '20px',
         },
     }),
 );
 
-export default function MyStyleButton(): JSX.Element {
+export default function MyStyleButtonUsingHookAPI(): JSX.Element {
     const classes = myStyleForButton();
     return (
         <button type="button" className={classes.root}>
-            MyStyle Button
+            Styled HTML Button
         </button>
     );
 }

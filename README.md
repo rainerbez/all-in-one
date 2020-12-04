@@ -151,9 +151,9 @@ Now that the installation is over and you have successfully compiled the project
 
 - `components\ReduxUndoSaga` - An example of how to add Saga undo to your Redux application.
 
-- `components\MaterialButton` - An example how to use Material-ui components. Extra SASS styles are loaded from the file `styles.module.scss`.
+- `components\MaterialButtons` - An example how to use Material-ui components, together with Theming. Extra SASS styles are loaded from the file `styles.module.scss`.
 
-- `components\MyStyleStuff` - Some examples how to import and modify Material-UI components and customize styles and Themes.
+- `components\StyleStuff` - Some examples how to import and modify Material-UI components and customize styles and Themes.
 
 ## Disclaimer & Improvements
 

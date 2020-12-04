@@ -7,8 +7,8 @@ import {
 
 import _join from 'lodash/join';
 
-import MaterialButton from '../MaterialButton';
-import MyStyleStuff from '../MyStyleStuff';
+import MaterialButton from '../MaterialButtons';
+import MyStyleStuff from '../StyleStuff';
 
 import './App.css';
 import style from './app.module.scss';
@@ -20,6 +20,8 @@ import ReduxUndoSaga from '../ReduxUndoSaga';
 import SettingViewer from '../ContextStuff/SettingViewer';
 import OneContextProvider from '../ContextStuff';
 import SettingChanger from '../ContextStuff/SettingChanger';
+import ThemedButtons from '../MaterialButtons/ThemedButtons';
+import CustomThemeVariables from '../MaterialButtons/CustomThemeVariables';
 
 // Now imported using lazy loading
 // import Footer from '../Footer';
@@ -81,6 +83,8 @@ function App(): JSX.Element {
                     ' - ',
                 )}
             />
+            <ThemedButtons />
+            <CustomThemeVariables />
             <Redux />
             <ReduxUndo />
             <ReduxUndoSaga />
