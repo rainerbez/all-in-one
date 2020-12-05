@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MyStyleButtonUsingHookAPI from './HTMLButton';
-import MyStyledButton, { StyledButton } from './ButtonComponent';
+import StyledButton1, { StyledButton } from '../MaterialButtons/StyledButton1';
 
 import MyStyleTypography, {
     MyStyleForTypography,
@@ -23,7 +23,7 @@ export default function MyStyleStuff(): JSX.Element {
             <StyleWithTheme />
             <MyStyleButtonUsingHookAPI />
             <StyledButton>A Styled Material-ui Button</StyledButton>
-            <MyStyledButton someText="My Styled Styled Material-ui Button" />
+            <StyledButton1 someText="My Styled Styled Material-ui Button" />
         </div>
     );
 }

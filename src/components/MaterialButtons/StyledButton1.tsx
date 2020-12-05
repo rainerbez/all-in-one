@@ -17,10 +17,10 @@ interface MyButtonPropsType {
     someText: string;
 }
 
-const MyStyledButton = ({
+const StyledButton1 = ({
     someText,
 }: MyButtonPropsType): JSX.Element => {
     return <StyledButton>{someText}</StyledButton>;
 };
 
-export default MyStyledButton;
+export default StyledButton1;

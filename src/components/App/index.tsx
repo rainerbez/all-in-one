@@ -22,6 +22,11 @@ import OneContextProvider from '../ContextStuff';
 import SettingChanger from '../ContextStuff/SettingChanger';
 import ThemedButtons from '../MaterialButtons/ThemedButtons';
 import CustomThemeVariables from '../MaterialButtons/CustomThemeVariables';
+import SimpleMaterialButton from '../MaterialButtons/SimpleMaterialButton';
+import StyledButton1, {
+    StyledButton,
+} from '../MaterialButtons/StyledButton1';
+import StyledButton2 from '../MaterialButtons/StyledButton2';
 
 // Now imported using lazy loading
 // import Footer from '../Footer';
@@ -77,6 +82,9 @@ function App(): JSX.Element {
                 <SettingChanger />
                 <SettingViewer />
             </OneContextProvider>
+            <SimpleMaterialButton buttonText="A Simple Material Button" />
+            <StyledButton1 someText="Styled Button 1" />
+            <StyledButton2 />
             <MaterialButton
                 buttonText={_join(
                     ['Material Button', 'Text joined with Lodash'],
